@@ -14,16 +14,16 @@ Este documento demonstra o processo realizado para configurar um ambiente de phi
 ## Execução do Phishing com SEToolkit
 
 1. **Elevação para Root**  
-   Iniciado o ambiente com permissões de superusuário através do comando `sudo su`, permitindo acesso total às ferramentas necessárias.
+   Iniciado o ambiente com permissões de superusuário `root` através do comando `sudo su`, permitindo acesso total às ferramentas necessárias.
 
 2. **Início do SEToolkit**  
    O SEToolkit foi iniciado com o comando `setoolkit`, carregando o menu de ataques de engenharia social.
 
 3. **Seleção do Tipo e Vetor de Ataque**  
-   No menu do SEToolkit, foi selecionado o tipo de ataque de **Engenharia Social**, seguido do vetor de ataque **Web Site Attack Vectors**, que permite replicar páginas web para captura de dados.
+   No menu do SEToolkit, foi selecionado o tipo de ataque de `Social-Engineering Attacks`, seguido do vetor de ataque `Web Site Attack Vectors`, que permite replicar páginas web para captura de dados.
 
 4. **Definição do Método de Captura de Credenciais**  
-   O método **Credential Harvester Attack** foi configurado com o modo **Site Cloner**, para clonar uma página específica e capturar credenciais inseridas.
+   O método `Credential Harvester Attack Method` foi configurado com o modo `Site Cloner`, para clonar uma página específica e capturar credenciais inseridas.
 
 5. **Configuração do IP Local e URL do Clone**  
    - **IP da Máquina**: Obtido com `ifconfig`, definindo o IP que receberia as credenciais.
@@ -41,6 +41,8 @@ Os dados capturados foram exibidos no terminal conforme imagem abaixo, onde o SE
 - Endereço IP da vítima
 - Data e hora de acesso
 - Credenciais submetidas (caso presentes)
+
+![Logo do GitHub](https://raw.githubusercontent.com/herminiosjunior/cibersecurity-phishing/refs/heads/main/senha.PNG)
 
 ---
 
